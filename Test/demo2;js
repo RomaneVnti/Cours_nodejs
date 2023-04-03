@@ -1,0 +1,3 @@
+ const myModule = require('myModule'); // Permet d'apporter des modules natif de node  ou librairies (bout de code code voué à être exporté ailleurs)
+
+ 
