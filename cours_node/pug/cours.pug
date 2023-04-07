@@ -1,0 +1,39 @@
+nav 
+    ul 
+        li  
+            a(href='/home') Home 
+        li  
+            a(href='/portFolio') portFolio 
+        li 
+            a(href='/Contact') Contact 
+        li 
+
+nav:ul 
+    li:a(href='/home') Home 
+    li:a(href='/portFolio') portFolio 
+    li:a(href='/Contact') Contact 
+
+input(type='radio' name='gender' value='Male');
+
+main#container
+    article
+        .article-inner 
+            p 
+                Lorem Ipsum 
+                givjh hiug,
+                ihuhii
+
+
+//Boucles 
+
+const user = ['Norbert', 'Antoine', 'Dougy'];
+ul#users 
+    each user in users 
+        li #{user} (#{index})
+
+
+ul#user
+    const users = new Set(['JM', 'Antoine', 'Marion']);
+
+    for(const user of users)
+        li=user 
