@@ -1,0 +1,12 @@
+html
+  head
+    meta(charset="UTF-8")
+    title Liste Etudiants
+    link(rel="stylesheet", href="/assets/css/style.css")
+  body
+    h1 Liste Etudiants
+    ul
+      each student, index in studentsBetterDate
+        li
+          | #{student.name} #{student.birth}
+          a(href=`/delete/${index}`) [X] 

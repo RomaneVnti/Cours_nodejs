@@ -1,0 +1,19 @@
+{
+  "name": "projet_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "pug": "^3.0.2"
+  }
+}
