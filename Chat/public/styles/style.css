@@ -1,0 +1,148 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #fff;
+  --accent-color: #7e7b7e;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  background-color: var(--accent-color);
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(47, 46, 46);
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+}
+
+aside {
+  width: 200px;
+  background-color: #f3f3f3;
+  padding: 1rem;
+}
+
+h2 {
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: #383438;
+}
+
+
+section#chat {
+  flex-grow: 2;
+  margin-left: 2rem;
+}
+
+section#users {
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #f3f3f3;
+}
+
+h2#channel-name {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 1rem;
+}
+
+div#messages {
+  height: 400px;
+  overflow-y: scroll;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+div.message {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  color:black;
+
+}
+
+form#message-form {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+label#user-label {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  color: black;
+}
+
+input#message-input {
+  flex-grow: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color:#f3f3f3;
+  color: black;
+  margin-right: 2rem;
+  
+}
+form#login-form{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+button[type="submit"] {
+  background-color: black;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: red;
+}

@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title Dischat
+        link(rel='stylesheet', href='/styles/style.css')
+    body
+        header 
+            h1 Identifiant 
+        main
+            form#login-form(action='/logged', method='POST')
+                input#username-input(type='text', name="username", autocomplete="off", placeholder='username')
+                button(type='submit') S'identifier
